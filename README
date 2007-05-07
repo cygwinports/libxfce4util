@@ -1,0 +1,143 @@
+libxfce4util
+------------------------------------------
+Basic utility library for Xfce4.
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  glib2-2.12.11-1
+  libintl8-0.15-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.3.1-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
+  xfce4-dev-tools-4.4.0-1
+
+Canonical website:
+  http://www.xfce.org/
+
+Canonical download:
+  http://www.xfce.org/archive/
+
+-------------------------------------------
+
+Build instructions:
+  unpack libxfce4util-4.4.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./libxfce4util-4.4.1-X.cygport all
+
+This will create:
+  /usr/src/libxfce4util-4.4.1-X-src.tar.bz2
+  /usr/src/libxfce4util-4.4.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary packages:
+
+(libxfce4util)
+  /usr/bin/cygxfce4util-4.dll
+  /usr/lib/xfce4/xfce4-kiosk-query.exe
+  /usr/share/doc/Cygwin/libxfce4util-4.4.1.README
+  /usr/share/doc/libxfce4util-4.4.1/AUTHORS
+  /usr/share/doc/libxfce4util-4.4.1/COPYING
+  /usr/share/doc/libxfce4util-4.4.1/ChangeLog
+  /usr/share/doc/libxfce4util-4.4.1/INSTALL
+  /usr/share/doc/libxfce4util-4.4.1/NEWS
+  /usr/share/doc/libxfce4util-4.4.1/README
+  /usr/share/doc/libxfce4util-4.4.1/THANKS
+  /usr/share/doc/libxfce4util-4.4.1/TODO
+  /usr/share/locale/ar/LC_MESSAGES/libxfce4util.mo
+  /usr/share/locale/ca/LC_MESSAGES/libxfce4util.mo
+  /usr/share/locale/cs/LC_MESSAGES/libxfce4util.mo
+  /usr/share/locale/cy/LC_MESSAGES/libxfce4util.mo
+  /usr/share/locale/de/LC_MESSAGES/libxfce4util.mo
+  /usr/share/locale/dz/LC_MESSAGES/libxfce4util.mo
+  /usr/share/locale/en_GB/LC_MESSAGES/libxfce4util.mo
+  /usr/share/locale/eu/LC_MESSAGES/libxfce4util.mo
+  /usr/share/locale/fi/LC_MESSAGES/libxfce4util.mo
+  /usr/share/locale/fr/LC_MESSAGES/libxfce4util.mo
+  /usr/share/locale/gl/LC_MESSAGES/libxfce4util.mo
+  /usr/share/locale/he/LC_MESSAGES/libxfce4util.mo
+  /usr/share/locale/it/LC_MESSAGES/libxfce4util.mo
+  /usr/share/locale/ja/LC_MESSAGES/libxfce4util.mo
+  /usr/share/locale/ka/LC_MESSAGES/libxfce4util.mo
+  /usr/share/locale/ko/LC_MESSAGES/libxfce4util.mo
+  /usr/share/locale/lt/LC_MESSAGES/libxfce4util.mo
+  /usr/share/locale/mk/LC_MESSAGES/libxfce4util.mo
+  /usr/share/locale/nl/LC_MESSAGES/libxfce4util.mo
+  /usr/share/locale/pl/LC_MESSAGES/libxfce4util.mo
+  /usr/share/locale/pt_BR/LC_MESSAGES/libxfce4util.mo
+  /usr/share/locale/sq/LC_MESSAGES/libxfce4util.mo
+  /usr/share/locale/tr/LC_MESSAGES/libxfce4util.mo
+  /usr/share/locale/uk/LC_MESSAGES/libxfce4util.mo
+
+(libxfce4util-devel)
+  /usr/include/xfce4/libxfce4util/debug.h
+  /usr/include/xfce4/libxfce4util/i18n.h
+  /usr/include/xfce4/libxfce4util/libxfce4util-config.h
+  /usr/include/xfce4/libxfce4util/libxfce4util-enum-types.h
+  /usr/include/xfce4/libxfce4util/libxfce4util.h
+  /usr/include/xfce4/libxfce4util/utf8.h
+  /usr/include/xfce4/libxfce4util/util.h
+  /usr/include/xfce4/libxfce4util/xfce-desktopentry.h
+  /usr/include/xfce4/libxfce4util/xfce-fileutils.h
+  /usr/include/xfce4/libxfce4util/xfce-generics.h
+  /usr/include/xfce4/libxfce4util/xfce-i18n.h
+  /usr/include/xfce4/libxfce4util/xfce-kiosk.h
+  /usr/include/xfce4/libxfce4util/xfce-license.h
+  /usr/include/xfce4/libxfce4util/xfce-miscutils.h
+  /usr/include/xfce4/libxfce4util/xfce-rc.h
+  /usr/include/xfce4/libxfce4util/xfce-resource.h
+  /usr/include/xfce4/libxfce4util/xfce-utf8.h
+  /usr/lib/libxfce4util.dll.a
+  /usr/lib/libxfce4util.la
+  /usr/lib/pkgconfig/libxfce4util-1.0.pc
+
+(libxfce4util-doc)
+  /usr/share/gtk-doc/html/libxfce4util/home.png
+  /usr/share/gtk-doc/html/libxfce4util/index.html
+  /usr/share/gtk-doc/html/libxfce4util/index.sgml
+  /usr/share/gtk-doc/html/libxfce4util/left.png
+  /usr/share/gtk-doc/html/libxfce4util/libxfce4util-Desktop-entries.html
+  /usr/share/gtk-doc/html/libxfce4util/libxfce4util-File-Utilities.html
+  /usr/share/gtk-doc/html/libxfce4util/libxfce4util-Internationalisation.html
+  /usr/share/gtk-doc/html/libxfce4util/libxfce4util-Miscellaneous-Utilities.html
+  /usr/share/gtk-doc/html/libxfce4util/libxfce4util-Resource-Config-File-Support.html
+  /usr/share/gtk-doc/html/libxfce4util/libxfce4util-Resource-lookup-functions.html
+  /usr/share/gtk-doc/html/libxfce4util/libxfce4util-Software-Licenses.html
+  /usr/share/gtk-doc/html/libxfce4util/libxfce4util-Unicode-Support-Functions.html
+  /usr/share/gtk-doc/html/libxfce4util/libxfce4util-Version-Information.html
+  /usr/share/gtk-doc/html/libxfce4util/libxfce4util-Xfce-Generics.html
+  /usr/share/gtk-doc/html/libxfce4util/libxfce4util-Xfce-Kiosk-functions.html
+  /usr/share/gtk-doc/html/libxfce4util/libxfce4util-core.html
+  /usr/share/gtk-doc/html/libxfce4util/libxfce4util-datatypes.html
+  /usr/share/gtk-doc/html/libxfce4util/libxfce4util-fundamentals.html
+  /usr/share/gtk-doc/html/libxfce4util/libxfce4util-utilities.html
+  /usr/share/gtk-doc/html/libxfce4util/libxfce4util.devhelp
+  /usr/share/gtk-doc/html/libxfce4util/libxfce4util.devhelp2
+  /usr/share/gtk-doc/html/libxfce4util/reference.html
+  /usr/share/gtk-doc/html/libxfce4util/right.png
+  /usr/share/gtk-doc/html/libxfce4util/style.css
+  /usr/share/gtk-doc/html/libxfce4util/up.png
+
+------------------
+
+Port Notes:
+
+----- version 4.4.1-1 -----
+Initial release of Xfce 4.4 for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
