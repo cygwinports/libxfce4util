@@ -1,5 +1,0 @@
-category: Xfce
-requires: glib2-doc
-external-source: libxfce4util
-sdesc: "Xfce4 utility library (API documentation)"
-ldesc: "Basic utility library for Xfce4."

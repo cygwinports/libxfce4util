@@ -1,4 +1,4 @@
-category: Xfce
+category: Gnome
 requires: cygwin glib2 libintl8
 sdesc: "Xfce4 utility library (runtime)"
 ldesc: "Basic utility library for Xfce4."
