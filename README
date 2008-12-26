@@ -4,7 +4,7 @@ Basic utility library for Xfce4.
 
 Runtime requirements:
   cygwin-1.5.25-15
-  glib2-2.16.6-1
+  libglib2.0_0-2.18.3-1
   libintl8-0.17-2
 
 Build requirements:
@@ -12,14 +12,14 @@ Build requirements:
   autoconf2.5-2.63-1
   automake1.10-1.10.1-1
   binutils-20080624-2
-  cygport-0.4.2-1
+  cygport-0.4.3-1
   gawk-3.1.6-1
   gcc-core-3.4.4-3
   libtool-2.2.6a-1
   make-3.81-1
   pkg-config-0.23a-2
   sed-4.1.5-2
-  xfce4-dev-tools-4.5.91-1
+  xfce4-dev-tools-4.5.92-1
 
 Canonical website:
   http://www.xfce.org/
@@ -30,32 +30,32 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libxfce4util-4.5.91-X-src.tar.bz2
+  unpack libxfce4util-4.5.92-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libxfce4util-4.5.91-X.cygport all
+  cygport ./libxfce4util-4.5.92-X.cygport all
 
 This will create:
-  /usr/src/libxfce4util-4.5.91-X-src.tar.bz2
-  /usr/src/libxfce4util-4.5.91-X.tar.bz2
-  /usr/src/libxfce4util-devel-4.5.91-X.tar.bz2
+  /usr/src/libxfce4util-4.5.92-X-src.tar.bz2
+  /usr/src/libxfce4util-devel-4.5.92-X.tar.bz2
+  /usr/src/libxfce4util4-4.5.92-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary packages:
 
-(libxfce4util)
+(libxfce4util4)
   /usr/bin/cygxfce4util-4.dll
   /usr/lib/xfce4/xfce4-kiosk-query.exe
-  /usr/share/doc/libxfce4util-4.5.91/AUTHORS
-  /usr/share/doc/libxfce4util-4.5.91/COPYING
-  /usr/share/doc/libxfce4util-4.5.91/ChangeLog
-  /usr/share/doc/libxfce4util-4.5.91/INSTALL
-  /usr/share/doc/libxfce4util-4.5.91/NEWS
-  /usr/share/doc/libxfce4util-4.5.91/README
-  /usr/share/doc/libxfce4util-4.5.91/THANKS
-  /usr/share/doc/libxfce4util-4.5.91/TODO
+  /usr/share/doc/libxfce4util-4.5.92/AUTHORS
+  /usr/share/doc/libxfce4util-4.5.92/COPYING
+  /usr/share/doc/libxfce4util-4.5.92/ChangeLog
+  /usr/share/doc/libxfce4util-4.5.92/INSTALL
+  /usr/share/doc/libxfce4util-4.5.92/NEWS
+  /usr/share/doc/libxfce4util-4.5.92/README
+  /usr/share/doc/libxfce4util-4.5.92/THANKS
+  /usr/share/doc/libxfce4util-4.5.92/TODO
   /usr/share/locale/am/LC_MESSAGES/libxfce4util.mo
   /usr/share/locale/ar/LC_MESSAGES/libxfce4util.mo
   /usr/share/locale/ca/LC_MESSAGES/libxfce4util.mo
@@ -141,6 +141,9 @@ Files included in the binary packages:
 ------------------
 
 Port Notes:
+
+----- version 4.5.92-1 -----
+Version bump for 4.6-beta2.
 
 ----- version 4.5.91-1 -----
 Version bump for 4.6-beta1.

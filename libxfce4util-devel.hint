@@ -1,5 +1,5 @@
 category: Gnome
-requires: cygwin glib2-devel gettext libxfce4util
+requires: cygwin libxfce4util4 libglib2.0-devel gettext
 external-source: libxfce4util
 sdesc: "Xfce4 utility library (development)"
 ldesc: "Basic utility library for Xfce4."
