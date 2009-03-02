@@ -19,7 +19,7 @@ Build requirements:
   make-3.81-1
   pkg-config-0.23a-2
   sed-4.1.5-2
-  xfce4-dev-tools-4.5.99.1-1
+  xfce4-dev-tools-4.6.0-1
 
 Canonical website:
   http://www.xfce.org/
@@ -30,16 +30,16 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libxfce4util-4.5.99.1-X-src.tar.bz2
+  unpack libxfce4util-4.6.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libxfce4util-4.5.99.1-X.cygport all
+  cygport ./libxfce4util-4.6.0-X.cygport all
 
 This will create:
-  /usr/src/libxfce4util-4.5.99.1-X-src.tar.bz2
-  /usr/src/libxfce4util-devel-4.5.99.1-X.tar.bz2
-  /usr/src/libxfce4util4-4.5.99.1-X.tar.bz2
+  /usr/src/libxfce4util-4.6.0-X-src.tar.bz2
+  /usr/src/libxfce4util-devel-4.6.0-X.tar.bz2
+  /usr/src/libxfce4util4-4.6.0-X.tar.bz2
 
 -------------------------------------------
 
@@ -48,14 +48,14 @@ Files included in the binary packages:
 (libxfce4util4)
   /usr/bin/cygxfce4util-4.dll
   /usr/lib/xfce4/xfce4-kiosk-query.exe
-  /usr/share/doc/libxfce4util-4.5.99.1/AUTHORS
-  /usr/share/doc/libxfce4util-4.5.99.1/COPYING
-  /usr/share/doc/libxfce4util-4.5.99.1/ChangeLog
-  /usr/share/doc/libxfce4util-4.5.99.1/INSTALL
-  /usr/share/doc/libxfce4util-4.5.99.1/NEWS
-  /usr/share/doc/libxfce4util-4.5.99.1/README
-  /usr/share/doc/libxfce4util-4.5.99.1/THANKS
-  /usr/share/doc/libxfce4util-4.5.99.1/TODO
+  /usr/share/doc/libxfce4util-4.6.0/AUTHORS
+  /usr/share/doc/libxfce4util-4.6.0/COPYING
+  /usr/share/doc/libxfce4util-4.6.0/ChangeLog
+  /usr/share/doc/libxfce4util-4.6.0/INSTALL
+  /usr/share/doc/libxfce4util-4.6.0/NEWS
+  /usr/share/doc/libxfce4util-4.6.0/README
+  /usr/share/doc/libxfce4util-4.6.0/THANKS
+  /usr/share/doc/libxfce4util-4.6.0/TODO
   /usr/share/locale/am/LC_MESSAGES/libxfce4util.mo
   /usr/share/locale/ar/LC_MESSAGES/libxfce4util.mo
   /usr/share/locale/ca/LC_MESSAGES/libxfce4util.mo
@@ -141,6 +141,9 @@ Files included in the binary packages:
 ------------------
 
 Port Notes:
+
+----- version 4.6.0-1 -----
+Version bump.
 
 ----- version 4.5.99.1-1 -----
 Version bump for 4.6-rc1.
