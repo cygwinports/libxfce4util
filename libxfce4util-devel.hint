@@ -1,4 +1,4 @@
-category: Gnome
+category: Xfce
 requires: libxfce4util4 libglib2.0-devel gettext
 external-source: libxfce4util
 sdesc: "Xfce4 utility library (development)"
