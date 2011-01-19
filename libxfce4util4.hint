@@ -1,5 +1,5 @@
 category: Xfce
-requires: libgcc1 libglib2.0_0 libintl8
+requires: libglib2.0_0 libintl8
 external-source: libxfce4util
 sdesc: "Xfce4 utility library (runtime)"
 ldesc: "Basic utility library for Xfce4."
