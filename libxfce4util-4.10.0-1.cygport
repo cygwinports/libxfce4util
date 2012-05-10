@@ -1,0 +1,8 @@
+inherit xfce4
+
+DESCRIPTION="Xfce base library"
+
+PKG_NAMES="${PN}6 ${PN}-common ${PN}-devel"
+libxfce4util6_CONTENTS="usr/bin/cygxfce4util-6.dll usr/lib/xfce4/"
+libxfce4util_common_CONTENTS="--exclude=gtk-doc usr/share/"
+libxfce4util_devel_CONTENTS='usr/include/ usr/lib/lib* usr/lib/pkgconfig/' # usr/share/gtk-doc/'

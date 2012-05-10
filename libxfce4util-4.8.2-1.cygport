@@ -1,7 +1,0 @@
-inherit xfce4
-
-DESCRIPTION="Xfce base library"
-
-PKG_NAMES="${PN}4 ${PN}-devel"
-libxfce4util4_CONTENTS='--exclude=gtk-doc usr/bin/*-4.dll usr/lib/xfce4/ usr/share/'
-libxfce4util_devel_CONTENTS='usr/include/ usr/lib/lib* usr/lib/pkgconfig/' # usr/share/gtk-doc/'
