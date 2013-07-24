@@ -1,5 +1,0 @@
-category: Xfce
-requires:
-external-source: libxfce4util
-sdesc: "Xfce4 utility library (data)"
-ldesc: "Basic utility library for Xfce4."

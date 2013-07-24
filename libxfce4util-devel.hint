@@ -1,5 +1,0 @@
-category: Xfce
-requires: libxfce4util6 libglib2.0-devel
-external-source: libxfce4util
-sdesc: "Xfce4 utility library (development)"
-ldesc: "Basic utility library for Xfce4."
