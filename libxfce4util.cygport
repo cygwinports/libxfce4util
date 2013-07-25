@@ -3,12 +3,15 @@ inherit xfce4
 NAME="libxfce4util"
 VERSION=4.10.1
 RELEASE=1
-CATEGORY="Xfce"
+CATEGORY="Libs"
 SUMMARY="Xfce4 utility library"
 DESCRIPTION="Basic utility library for Xfce4."
 
-PKG_NAMES="${NAME}6 ${NAME}-common ${NAME}-devel"
+PKG_NAMES="${NAME}6 ${NAME}-common ${NAME}-devel xfce4-kiosk-query"
 libxfce4util6_REQUIRES="libxfce4util-common"
-libxfce4util6_CONTENTS="usr/bin/cygxfce4util-6.dll usr/lib/xfce4/"
+libxfce4util6_CONTENTS="usr/bin/cygxfce4util-6.dll"
 libxfce4util_common_CONTENTS="--exclude=gtk-doc usr/share/"
 libxfce4util_devel_CONTENTS='usr/include/ usr/lib/lib* usr/lib/pkgconfig/' # usr/share/gtk-doc/'
+xfce4_kiosk_query_CATEGORY="Xfce"
+xfce4_kiosk_query_SUMMARY="Xfce kiosk configuration tester"
+xfce4_kiosk_query_CONTENTS="usr/sbin/xfce4-kiosk-query.exe"
